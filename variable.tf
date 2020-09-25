@@ -1,3 +1,3 @@
-variables region {}
-variables name {}
-variables prefix {}
+variable region {}
+variable name {}
+variable prefix {}
