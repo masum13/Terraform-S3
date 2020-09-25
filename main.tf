@@ -9,9 +9,6 @@ terraform {
 provider "aws" {
   region     = var.region
 }
-variable region {}
-variable name {}
-variable prefix {}
 
 module "s3" {
   source        = "app.terraform.io/masum-practice/s3/aws"
